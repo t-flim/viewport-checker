@@ -1,35 +1,48 @@
 body {
-    background-color: red;
+    background-color: maroon;
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
 }
 
 h1 {
     color: white;
 }
 
+.panel {
+    text-align: center;
+}
+
+.panel p {
+    color: white;
+    margin: 12px 0 0;
+    font-size: 18px;
+}
+
 @media (min-width: 576px) {
     body {
-        background-color: blue;
+        background-color: royalblue;
     }
 }
 
 @media (min-width: 768px) {
     body {
-        background-color: green;
+        background-color: seagreen;
     }
 }
 
 @media (min-width: 992px) {
     body {
-        background-color: yellow;
+        background-color: salmon;
     }
 }
 
 @media (min-width: 1200px) {
     body {
-        background-color: purple;
+        background-color: rebeccapurple;
     }
 }
 
